@@ -1,1 +1,17 @@
+/* Make sure body takes full height */
+html, body {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
 
+/* Push footer to the bottom */
+main {
+  flex: 1;
+}
+
+/* Disable collapse animation */
+.collapsing {
+  transition: none !important;
+}
